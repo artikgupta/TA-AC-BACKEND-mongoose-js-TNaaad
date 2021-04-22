@@ -11,5 +11,5 @@ var userSchema = new Schema({
 
 var userSchema= new Schema({
     email:{type: String, lowercase:true},
-    age:{type:Number}
+    age:{type:Number, default:0}
 })
